@@ -17,7 +17,7 @@ This is a Next.js application that fetches the Star Wars API from https://swapi.
 
 If you are an ened user and would like to view the application, please check out the following link:
 
-www.vercel.com
+https://star-wars-api-next-js-app.vercel.app/
 
 If you would like to have a look and play with the source code, please download the code at the link above and follow the instillation instructions below:
 
