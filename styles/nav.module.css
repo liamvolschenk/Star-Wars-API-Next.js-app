@@ -1,0 +1,43 @@
+.nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-icon {
+    height: 50px;
+    padding-right: 10px;
+}
+
+.nav-title {
+    display: flex;
+    cursor: pointer;
+}
+
+.nav h1 {
+    font-weight: 400;
+    position: relative;
+    top: 8px;
+    color: #8acbcd;
+}
+
+.navImg {
+    height: 50px;
+    position: absolute;
+    top: 16px;
+    left: 46px;
+    padding-right: 60px;
+}
+
+.nav .menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav .menu ul li a {
+    margin: 0 30px;
+    color: #8acbcd;
+}

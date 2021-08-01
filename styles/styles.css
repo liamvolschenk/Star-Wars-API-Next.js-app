@@ -1,0 +1,258 @@
+/*some basic styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+html {
+    font-family: sans-serif;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+
+    padding: 1rem;
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.hero {
+    position: relative;
+    height: 97.7vh;
+    width: 100vw;
+
+}
+
+.logo {
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: 150px;
+}
+
+.page {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    height: 100%;
+    width: 100%;
+    color: #fdfdfd;
+}
+
+.home ul {
+    list-style-type: none;
+}
+
+.home li {
+    margin: 0.7em 0;
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+.nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-icon {
+    height: 50px;
+    padding-right: 10px;
+}
+
+.nav-title {
+    display: flex;
+    cursor: pointer;
+}
+
+
+.nav h1 {
+    font-weight: 400;
+    position: relative;
+    top: 8px;
+    color: #8acbcd;
+}
+
+.navImg {
+    height: 50px;
+    position: absolute;
+    top: 16px;
+    left: 46px;
+    padding-right: 60px;
+}
+
+.nav .menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav .menu ul li a {
+    margin: 0 30px;
+    color: #8acbcd;
+    position: relative;
+    left: 720px;
+}
+
+.divImg {
+    padding-right: 40px;
+}
+
+.page1 {
+    background: #354C52;
+    color: #8acbcd;
+}
+
+.character-page h1 {
+    padding-left: 50px;
+}
+
+.luke {
+    height: 600px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.bubble {
+    height: 450px;
+    position: absolute;
+    bottom: 180px;
+    right: 380px;
+}
+
+.bubble-text {
+    position: absolute;
+    bottom: 400px;
+    right: 495px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    color: #8acbcd;
+}
+
+.page2 {
+    background: #8acbcd;
+}
+
+.character-page {
+    background: #354C52;
+}
+
+.characters {
+    margin-left: 130px;
+    position: relative;
+    top: 40px;
+    background: #354C52;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 5px 10px 8px #888888;
+    transition: transform .2s;
+    border-radius: 5px;
+}
+
+.characters:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: .2s ease-in-out;
+}
+
+.characters li a {
+    text-decoration: none;
+    color: #8acbcd;
+}
+
+.character-title {
+    text-align: center;
+    margin-top: 40px;
+    color: #8acbcd;
+}
+
+.character-container {
+    width: 500px;
+    height: 500px;
+    background: #8acbcd;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.character-attributes {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    color: #354C52;
+}
+
+.character-attributes li {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+hr {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #888888;
+    border-top: 0px;
+    box-shadow: none;
+}
+
+.prev {
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+}
+
+.prevNext a {
+    text-decoration: none;
+    color: #354C52;
+}
+
+.prevNext button {
+    background-color: #D3F0C4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prevNext button:hover {
+    background-color: #c7e4b9;
+}
+
+.next {
+    position: absolute;
+    bottom: 300px;
+    right: 100px;
+}
+
+.next button {
+    padding-left: 48.5px;
+    padding-right: 48.5px;
+}
